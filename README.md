@@ -7,3 +7,4 @@ thanks for using :)
 `pip3 install telethon`
 `pip3 install lxml`
 `pip3 install requests`#for windows
+put you api_id and api_hash in line5
