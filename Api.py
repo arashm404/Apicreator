@@ -2,7 +2,7 @@ from telethon.sync import TelegramClient, events
 from telethon.tl.custom import Button
 import json,requests
 from lxml import html
-client = TelegramClient('api_creator', 1581224, 'bd891fcb8726cfbd64abc9ddbba2c8ff')
+client = TelegramClient('api_creator', PUTYOURAPI_ID, 'PUTYOURAPI_HASH')
 client.start()
 a = dict()
 def create_api(phone):
